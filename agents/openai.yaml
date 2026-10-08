@@ -1,0 +1,13 @@
+interface:
+  display_name: 去防御性写作
+  short_description: 删除预先辩解与多余限定，保留证据边界，让中英文学术写作直接准确
+  default_prompt: 请使用 $anti-defensive-writing 改写下面的文本，去除不必要的防御性措辞，保留真实不确定性和研究边界。
+  icon_small: assets/icon.svg
+  icon_large: assets/icon.svg
+policy:
+  products:
+  - chatgpt
+  - codex
+  - api
+  - atlas
+  allow_implicit_invocation: true
